@@ -1,4 +1,9 @@
 body {
+
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
@@ -9,15 +14,23 @@ body {
 }
 
 h1 {
+
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
     width: 100%;
+
+}
+
+h2 {
+    margin-top: 3%;
 }
 
 h3 {
+
+    margin-top: 3%;
 	font: 900 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
@@ -27,6 +40,9 @@ h3 {
 }
 
 button {
+
+    height: 30px;
+    width: 90px;
     font: 700 1em 'Raleway', sans-serif;
     color: floralwhite;
     border-radius: 5%;
@@ -34,3 +50,5 @@ button {
     background-color:rgba(0,0,0,.5);
     
 }
+
+
