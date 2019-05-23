@@ -68,7 +68,11 @@ button {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font: 600 2.5em 'Raleway', sans-serif;
+        font: 600 2em 'Raleway', sans-serif;
+    }
+
+    h2 {
+        font-size: 1.3em;
     }
 }
 
