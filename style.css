@@ -1,7 +1,7 @@
 body {
 
-    display: flexbox;
-    flex-direction: column;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 	font: 'Raleway', sans-serif;
@@ -15,21 +15,27 @@ body {
 
 h1 {
 
+    order: 0;
+    flex-basis: 100%;
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    width: 100%;
 
 }
 
 h2 {
+
+    order: 2;
+    flex-basis: 100%;
     margin-top: 3%;
 }
 
 h3 {
 
+    order: 3;
+    flex-basis: 100%;
     margin-top: 3%;
 	font: 900 1em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
@@ -39,10 +45,17 @@ h3 {
 
 }
 
+input {
+    
+    order: 1;
+    flex-basis: auto;
+    
+}
+
 button {
 
-    height: 30px;
-    width: 90px;
+    order: 1;
+    flex-basis: auto;
     font: 700 1em 'Raleway', sans-serif;
     color: floralwhite;
     border-radius: 5%;
