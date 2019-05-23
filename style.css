@@ -49,6 +49,7 @@ input {
     
     order: 1;
     flex-basis: auto;
+    margin: 2px 2px 2px 2px;
     
 }
 
@@ -56,12 +57,19 @@ button {
 
     order: 1;
     flex-basis: auto;
+    margin: 2px 2px 2px 2px;
     font: 700 1em 'Raleway', sans-serif;
     color: floralwhite;
     border-radius: 5%;
     border: 3px solid white;
     background-color:rgba(0,0,0,.5);
     
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font: 600 2.5em 'Raleway', sans-serif;
+    }
 }
 
 
