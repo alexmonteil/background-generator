@@ -22,12 +22,14 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
+    margin-top: 2em;
 
 }
 
 h2 {
 
     order: 2;
+    font-size: 2em;
     flex-basis: 100%;
     margin-top: 3%;
 }
@@ -37,7 +39,7 @@ h3 {
     order: 3;
     flex-basis: 100%;
     margin-top: 3%;
-	font: 900 1em 'Raleway', sans-serif;
+	font: 900 1.4em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -50,6 +52,8 @@ input {
     order: 1;
     flex-basis: auto;
     margin: 2px 2px 2px 2px;
+    height: 3em;
+    width: 5em;
     
 }
 
@@ -66,7 +70,7 @@ button {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 31.25em) {
     h1 {
         font: 600 2em 'Raleway', sans-serif;
         letter-spacing: .4em;
