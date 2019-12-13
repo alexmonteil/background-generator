@@ -54,7 +54,7 @@ input {
     margin: 2px 2px 2px 2px;
     height: 3em;
     width: 5em;
-    
+    cursor: pointer;
 }
 
 button {
@@ -67,7 +67,7 @@ button {
     border-radius: 5%;
     border: 3px solid white;
     background-color:rgba(0,0,0,.5);
-    
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 31.25em) {
