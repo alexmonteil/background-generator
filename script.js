@@ -7,8 +7,8 @@ const color2 = document.querySelectorAll('input')[1];
 
 // Changes background gradient to selected colors & displays CSS property on screen
 const changeBackground = () => {
-    body.style.background = 'linear-gradient(to right, ' + color1.value + ', ' + color2.value + ');';
-    css.textContent = 'linear-gradient(to right, ' + color1.value + ', ' + color2.value + ');';
+    body.style.background = 'linear-gradient(to right, ' + color1.value + ', '  + color2.value + ')';
+    css.textContent = 'linear-gradient(to right, ' + color1.value + ', ' + color2.value + ')';
 }
 
 // Generates random colors and changes background gradient to those
