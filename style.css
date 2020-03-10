@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
 
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 	font: 'Raleway', sans-serif;
@@ -9,8 +16,11 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+	background: linear-gradient(to right, #f6703d , #cc2e82) no-repeat center center/cover; /* Standard syntax */
+}
+
+.container {
+    vertical-align: middle;
 }
 
 h1 {
@@ -22,8 +32,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    margin-top: 2em;
-
+    margin: 2em 1em 1em 1em;
 }
 
 h2 {
@@ -31,14 +40,14 @@ h2 {
     order: 2;
     font-size: 2em;
     flex-basis: 100%;
-    margin-top: 3%;
+    margin: 1em auto;
 }
 
 h3 {
 
     order: 3;
     flex-basis: 100%;
-    margin-top: 3%;
+    margin: 1em auto;
 	font: 900 1.4em 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
@@ -51,9 +60,12 @@ input {
     
     order: 1;
     flex-basis: auto;
-    margin: 2px 2px 2px 2px;
     height: 3em;
     width: 5em;
+    margin: 0.5rem 0.5rem;
+    border-radius: 5%;
+    border: 0.5px solid white;
+    vertical-align: middle;
     cursor: pointer;
 }
 
@@ -61,16 +73,18 @@ button {
 
     order: 1;
     flex-basis: auto;
-    margin: 2px 2px 2px 2px;
+    margin: 0.5rem 0.5rem;
+    padding: 0.25rem;
     font: 700 1em 'Raleway', sans-serif;
     color: floralwhite;
     border-radius: 5%;
     border: 3px solid white;
+    vertical-align: middle;
     background-color:rgba(0,0,0,.5);
     cursor: pointer;
 }
 
-@media only screen and (max-width: 31.25em) {
+@media (max-width: 500px) { 
     h1 {
         font: 600 2em 'Raleway', sans-serif;
         letter-spacing: .4em;
@@ -80,8 +94,8 @@ button {
         font-size: 1.3em;
         letter-spacing: .4em;
         margin-top: 5%;
-
-    }
+   }
 }
+
 
 
